@@ -1,0 +1,16 @@
+.main{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px
+}
+.main__img-card{
+   display: flex;
+   flex-direction: column;
+   
+   flex: 1 1 30%;
+}
+.main__img-card img{
+   max-height: 216px;
+   object-fit: cover;
+   border-radius: 8px;
+}
